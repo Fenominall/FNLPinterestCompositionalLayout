@@ -18,26 +18,18 @@
 			remoteGlobalIDString = 4FCD17082DFC551400BCCD8A;
 			remoteInfo = FNLPinterestCompositionallayout;
 		};
-		4FCD172A2DFC551700BCCD8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4FCD17012DFC551400BCCD8A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4FCD17082DFC551400BCCD8A;
-			remoteInfo = FNLPinterestCompositionallayout;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4FCD17092DFC551400BCCD8A /* FNLPinterestCompositionallayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNLPinterestCompositionallayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCD171F2DFC551700BCCD8A /* FNLPinterestCompositionallayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNLPinterestCompositionallayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FCD17292DFC551700BCCD8A /* FNLPinterestCompositionallayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNLPinterestCompositionallayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		4FCD17312DFC551700BCCD8A /* Exceptions for "FNLPinterestCompositionallayout" folder in "FNLPinterestCompositionallayout" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = 4FCD17082DFC551400BCCD8A /* FNLPinterestCompositionallayout */;
 		};
@@ -55,11 +47,6 @@
 		4FCD17222DFC551700BCCD8A /* FNLPinterestCompositionallayoutTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = FNLPinterestCompositionallayoutTests;
-			sourceTree = "<group>";
-		};
-		4FCD172C2DFC551700BCCD8A /* FNLPinterestCompositionallayoutUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FNLPinterestCompositionallayoutUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,13 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FCD17262DFC551700BCCD8A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,7 +75,6 @@
 			children = (
 				4FCD170B2DFC551400BCCD8A /* FNLPinterestCompositionallayout */,
 				4FCD17222DFC551700BCCD8A /* FNLPinterestCompositionallayoutTests */,
-				4FCD172C2DFC551700BCCD8A /* FNLPinterestCompositionallayoutUITests */,
 				4FCD170A2DFC551400BCCD8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +84,6 @@
 			children = (
 				4FCD17092DFC551400BCCD8A /* FNLPinterestCompositionallayout.app */,
 				4FCD171F2DFC551700BCCD8A /* FNLPinterestCompositionallayoutTests.xctest */,
-				4FCD17292DFC551700BCCD8A /* FNLPinterestCompositionallayoutUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,29 +137,6 @@
 			productReference = 4FCD171F2DFC551700BCCD8A /* FNLPinterestCompositionallayoutTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4FCD17282DFC551700BCCD8A /* FNLPinterestCompositionallayoutUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4FCD173A2DFC551700BCCD8A /* Build configuration list for PBXNativeTarget "FNLPinterestCompositionallayoutUITests" */;
-			buildPhases = (
-				4FCD17252DFC551700BCCD8A /* Sources */,
-				4FCD17262DFC551700BCCD8A /* Frameworks */,
-				4FCD17272DFC551700BCCD8A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4FCD172B2DFC551700BCCD8A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4FCD172C2DFC551700BCCD8A /* FNLPinterestCompositionallayoutUITests */,
-			);
-			name = FNLPinterestCompositionallayoutUITests;
-			packageProductDependencies = (
-			);
-			productName = FNLPinterestCompositionallayoutUITests;
-			productReference = 4FCD17292DFC551700BCCD8A /* FNLPinterestCompositionallayoutUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,10 +151,6 @@
 						CreatedOnToolsVersion = 16.4;
 					};
 					4FCD171E2DFC551700BCCD8A = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 4FCD17082DFC551400BCCD8A;
-					};
-					4FCD17282DFC551700BCCD8A = {
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 4FCD17082DFC551400BCCD8A;
 					};
@@ -224,7 +175,6 @@
 			targets = (
 				4FCD17082DFC551400BCCD8A /* FNLPinterestCompositionallayout */,
 				4FCD171E2DFC551700BCCD8A /* FNLPinterestCompositionallayoutTests */,
-				4FCD17282DFC551700BCCD8A /* FNLPinterestCompositionallayoutUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +188,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4FCD171D2DFC551700BCCD8A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4FCD17272DFC551700BCCD8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,13 +211,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FCD17252DFC551700BCCD8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -282,11 +218,6 @@
 			isa = PBXTargetDependency;
 			target = 4FCD17082DFC551400BCCD8A /* FNLPinterestCompositionallayout */;
 			targetProxy = 4FCD17202DFC551700BCCD8A /* PBXContainerItemProxy */;
-		};
-		4FCD172B2DFC551700BCCD8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4FCD17082DFC551400BCCD8A /* FNLPinterestCompositionallayout */;
-			targetProxy = 4FCD172A2DFC551700BCCD8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -300,7 +231,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5YJ9NPM7MQ;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = FNLPinterestCompositionallayout/Info.plist;
+				INFOPLIST_FILE = FNLPinterestCompositionallayout/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -327,7 +258,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5YJ9NPM7MQ;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = FNLPinterestCompositionallayout/Info.plist;
+				INFOPLIST_FILE = FNLPinterestCompositionallayout/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -504,40 +435,6 @@
 			};
 			name = Release;
 		};
-		4FCD173B2DFC551700BCCD8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5YJ9NPM7MQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fenominall.FNLPinterestCompositionallayoutUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FNLPinterestCompositionallayout;
-			};
-			name = Debug;
-		};
-		4FCD173C2DFC551700BCCD8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5YJ9NPM7MQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fenominall.FNLPinterestCompositionallayoutUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FNLPinterestCompositionallayout;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,15 +461,6 @@
 			buildConfigurations = (
 				4FCD17382DFC551700BCCD8A /* Debug */,
 				4FCD17392DFC551700BCCD8A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4FCD173A2DFC551700BCCD8A /* Build configuration list for PBXNativeTarget "FNLPinterestCompositionallayoutUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4FCD173B2DFC551700BCCD8A /* Debug */,
-				4FCD173C2DFC551700BCCD8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
