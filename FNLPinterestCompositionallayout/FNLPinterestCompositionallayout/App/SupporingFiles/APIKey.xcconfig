@@ -1,0 +1,12 @@
+//
+//  APIKey.xcconfig
+//  FNLPinterestCompositionallayout
+//
+//  Created by Fenominall on 6/13/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+UNSPLASH_ACCESS_KEY = Ad8OPiTiq9Y97t6sfaVkt8cpiX3J_qocIPKuFseqF8k
+UNSPLASH_SECRET_KEY = xUagmzzNqYDnPGs0GKIi4IUHtmKW4QV9vVHvw7b1Als
