@@ -1,0 +1,15 @@
+{
+  "originHash" : "04d5fd9a2e193afddbcf8ce5dac0a697b58cf6b63002788ccf1ddafb3d44dad9",
+  "pins" : [
+    {
+      "identity" : "fnlnexus",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Fenominall/FNLNexus.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d254e4231bf4e0fb55548eb0bcdcc4aa75a1cf16"
+      }
+    }
+  ],
+  "version" : 3
+}
